@@ -1,10 +1,16 @@
 
 package avaliacao_2_poo;
 
-/**
- * @author hedermilani
- */
+
 public abstract class Veiculo {
+    public Veiculo(boolean ligado, String marca, String modelo, int marcha, int qtdeMarcas){
+        this.ligado = ligado;
+        this.marca = marca;
+        this.modelo = modelo;
+        this.marcha = marcha;
+        this.qtdeMarchas = qtdeMarcas;
+    }
+    
     public boolean ligado;
     public String marca, modelo;
     public int marcha, qtdeMarchas;
