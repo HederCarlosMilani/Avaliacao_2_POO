@@ -8,17 +8,19 @@ import avaliacao_2_poo.Veiculo;
  * @author VinciPy
  */
 public class Caminhao extends Veiculo {
-       public boolean portasFechadas;
+       private boolean portasFechadas;
 
-    public Caminhao(boolean ligado, String marca, String modelo, int marcha, int qtdeMarcas) {
+    public Caminhao(boolean ligado, String marca, String modelo, int marcha, int qtdeMarcas, boolean portasFechadas) {
         super(ligado, marca, modelo, marcha, qtdeMarcas);
+        this.portasFechadas = portasFechadas;
     }
        
        public void Ligar(){
            if (portasFechadas == true){
-               ligado = true;
+               super.setLigado(true);
            } else {
-               System.out.println("Portas abertas");
+               System.out.println("Portas abertas -- Fechar Portas");
+               super.setLigado(false);
            }
        }
 }

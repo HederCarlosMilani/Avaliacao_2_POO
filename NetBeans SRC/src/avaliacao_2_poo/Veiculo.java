@@ -11,9 +11,9 @@ public abstract class Veiculo {
         this.qtdeMarchas = qtdeMarcas;
     }
     
-    public boolean ligado;
-    public String marca, modelo;
-    public int marcha, qtdeMarchas;
+    private boolean ligado;
+    private String marca, modelo;
+    private int marcha, qtdeMarchas;
     
     public boolean ligado(){
       return ligado == true;
@@ -21,6 +21,31 @@ public abstract class Veiculo {
     public boolean desligado(){
         return ligado == false;
     }
+    
+    public void getLigado(){
+        System.out.println(this.ligado);
+    }
+   
+    public void setLigado(boolean ligado){
+        this.ligado = ligado;
+    }
+    
+    public void getMarca(){
+        System.out.println(this.marca);
+    }
+    
+    public void getModelo(){
+        System.out.println(this.modelo);
+    }
+    
+    public void getMarcha(){
+        System.out.println(this.marcha);
+    }
+    
+     public void qtdeMarchas(){
+        System.out.println(this.qtdeMarchas);
+    }
+     
     public void marchaAbaixo(){
       if(marcha > 0){
        marcha--;

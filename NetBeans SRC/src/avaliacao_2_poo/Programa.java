@@ -9,7 +9,9 @@ import caminhao_carro.Carro;
 public class Programa {
 
     public static void main(String[] args) {
-        Carro c1 = new Carro();
+        Carro c1 = new Carro(true, "Tesla", "Model Y", 2, 6, false);
+        c1.Ligar();
+        c1.getLigado();
     }
     
 }
