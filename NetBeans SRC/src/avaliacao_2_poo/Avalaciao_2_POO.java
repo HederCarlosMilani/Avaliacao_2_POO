@@ -1,7 +1,7 @@
 /*
     Heder Carlos Milani - 00134684
 */
-package avalaciao_2_poo;
+package avaliacao_2_poo;
 
 public class Avalaciao_2_POO {
 

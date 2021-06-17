@@ -1,5 +1,5 @@
 
-package avalaciao_2_poo;
+package avaliacao_2_poo;
 
 /**
  * @author hedermilani
