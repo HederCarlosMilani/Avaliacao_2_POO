@@ -1,5 +1,9 @@
 /*
     Heder Carlos Milani - 00134684
+    Vinicius Santana dos Anjos - 00209374
+    Lucas Eduardo de Oliveira - 00210694
+    Santhiago Monteiro Pereira - 00210649
+    Felipe Takata De Alvarenga - 00200705
 */
 package avaliacao_2_poo;
 
