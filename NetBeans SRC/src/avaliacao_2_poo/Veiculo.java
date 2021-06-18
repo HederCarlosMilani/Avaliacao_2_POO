@@ -22,28 +22,28 @@ public abstract class Veiculo {
         return ligado == false;
     }
     
-    public void getLigado(){
-        System.out.println(this.ligado);
+    public boolean getLigado(){
+        return this.ligado;
     }
    
     public void setLigado(boolean ligado){
         this.ligado = ligado;
     }
     
-    public void getMarca(){
-        System.out.println(this.marca);
+    public String getMarca(){
+        return this.marca;
     }
     
-    public void getModelo(){
-        System.out.println(this.modelo);
+    public String getModelo(){
+        return this.modelo;
     }
     
-    public void getMarcha(){
-        System.out.println(this.marcha);
+    public int getMarcha(){
+       return this.marcha;
     }
     
-     public void qtdeMarchas(){
-        System.out.println(this.qtdeMarchas);
+     public int qtdeMarchas(){
+        return this.qtdeMarchas;
     }
      
     public void marchaAbaixo(){

@@ -23,4 +23,8 @@ public class Caminhao extends Veiculo {
                super.setLigado(false);
            }
        }
+       
+       public boolean getPortasFechadas(){
+           return this.portasFechadas;
+       }
 }

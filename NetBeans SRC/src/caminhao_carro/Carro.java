@@ -26,7 +26,7 @@ public class Carro extends Veiculo {
            }
        }
        
-       public void getPortasFechadas(){
-           System.out.println(this.portasFechadas);
+       public boolean getPortasFechadas(){
+          return this.portasFechadas;
        }
 }
